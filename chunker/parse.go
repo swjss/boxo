@@ -15,7 +15,7 @@ const (
 	// No leaf block should contain more than 1MiB of payload data ( wrapping overhead aside )
 	// This effectively mandates the maximum chunk size
 	// See discussion at https://github.com/ipfs/boxo/chunker/pull/21#discussion_r369124879 for background
-	ChunkSizeLimit int = 1048576
+	ChunkSizeLimit int = 10485760
 )
 
 var (
